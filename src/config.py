@@ -6,7 +6,7 @@ import os
 class BaseConfig:
     TESTING = False
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SECRET_KEY = "açaicombananaforever"
+    SECRET_KEY = os.environ.get("SECRET_KEY") or "açaicombananaforever"
 
 
 class DevelopmentConfig(BaseConfig):
