@@ -1,2 +1,7 @@
 flask==2.1.1
 pytest==7.1.2
+playwright
+flask-sqlalchemy
+flask-migrate
+pytest-playwright
+python-dotenv
